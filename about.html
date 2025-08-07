@@ -56,7 +56,7 @@
 					<h2>Rooted In Experience. Built For Growth.</h2>
 					<p>At Tailored Approach Consulting, we’re a passionate, experienced team of business strategists, HR
 						leaders, and operations pros who believe every entrepreneur and growing business deserves
-						xcustom-built support to thrive.</p>
+						custom-built support to thrive.</p>
 				</header>
 				<span class="image" style="margin-top: 60px;"><img src="images/TAC logo.jpg" alt="" /></span>
 
@@ -313,7 +313,20 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	
+	<a href="#page-wrapper" id="scrollToTop" title="Return to Top">&#8679;</a>
+	<script>
+		const scrollToTopBtn = document.getElementById("scrollToTop");
+	  
+		window.addEventListener("scroll", () => {
+		  if (window.scrollY > 300) {
+			scrollToTopBtn.style.display = "block";
+		  } else {
+			scrollToTopBtn.style.display = "none";
+		  }
+		});
+	  </script>
+	  
 </body>
 
 </html>
