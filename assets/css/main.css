@@ -4181,4 +4181,18 @@ input, select, textarea {
 	color: #FFD700;
   }
   
+  .fade-in {
+	opacity: 0;
+	animation: fadeIn 1.2s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  
+  
+
   
