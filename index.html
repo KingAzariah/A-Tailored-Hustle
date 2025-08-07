@@ -200,5 +200,18 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<!-- Return to Top Button -->
+<a href="#page-wrapper" id="scrollToTop" title="Return to Top">&#8679;</a>
+<script>
+  const scrollToTopBtn = document.getElementById("scrollToTop");
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      scrollToTopBtn.style.display = "block";
+    } else {
+      scrollToTopBtn.style.display = "none";
+    }
+  });
+</script>
+
 	</body>
 </html>
