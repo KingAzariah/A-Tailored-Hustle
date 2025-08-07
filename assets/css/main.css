@@ -4192,7 +4192,12 @@ input, select, textarea {
 	}
   }
   
-  
+  @media screen and (max-width: 768px) {
+	#sidebar {
+	  position: static !important;
+	}
+  }
+	
   
 
   
